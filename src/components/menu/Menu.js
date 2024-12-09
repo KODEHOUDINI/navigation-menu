@@ -62,7 +62,7 @@ const Menu = () => {
         </div>
       </div>
       <div className="menu-overlay">
-        <div className="menu-overlay-bar">
+        <div className="menu-bar">
           <div className="menu-logo">
             <Link href={"/"}>Khevlar</Link>
           </div>
@@ -70,7 +70,7 @@ const Menu = () => {
             <p>Close</p>
           </div>
         </div>
-        <div className="menu-close-icon">
+        <div className="menu-close-icon" onClick={toggleMenu}>
           <p>&#x2715;</p>
         </div>
         <div className="menu-copy">

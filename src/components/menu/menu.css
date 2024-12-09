@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 1;
+  z-index: 1000;
 }
 
 .menu-bar a,
@@ -18,7 +18,7 @@
 }
 
 .menu-close p {
-  color: black;
+  color: white;
   cursor: pointer;
 }
 
@@ -29,8 +29,8 @@
   width: 100vw;
   height: 100vh;
   padding: 2em;
-  background: #14213d;
-  z-index: 2;
+  background: #1e315b;
+  z-index: 2000;
   display: flex;
   clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 }
@@ -58,8 +58,8 @@
 }
 
 .menu-close-icon p {
-  font-size: 160px;
-  -webkit-text-stroke: 3px #c5fb45;
+  font-size: 40px;
+  -webkit-text-stroke: 3px #fca311;
   line-height: 70%;
 }
 
