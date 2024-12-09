@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "shred-hand";
+  src: url("./fonts/ShredHanded.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +13,7 @@
 }
 
 body {
+  font-family: "shred-hand", sans-serif;
   background: #14213d;
 }
 
